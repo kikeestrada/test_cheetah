@@ -1,0 +1,10 @@
+// Mobile Styles
+@media only screen and (max-width: 649px){
+	@import "block";
+	@import "blocktable"; 
+	@import "hide-element-mobile";
+	@import "show-element-mobile";
+	@import "show-container-mobile";
+	@import "yahoo_no_spaces"; 
+	@import "../customcss/customcss";
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	_include('./config/metatags.html')
+	_include('./config/ms_fixes.html')
+	<style type="text/css">
+		_include('./styles.css')
+	</style>
+	<title>Email Template</title>	 
+</head>
+<body class="dev" style="padding:0 !important">
+	_include('./config/top_gmail_fix.html')
+	<!-- Main Table Container Starts -->
+	<table width="650" role="presentation" border="0" style="width: 650px;" cellspacing="0" cellpadding="0" align="center"  class="blocktable">
+		<tr>
+			<td valign="top" bgcolor="#ffffff">
+				<!-- Content Starts Here --> 
+				<!-- _include('./modules/list_1.html') -->
+				_include('./modules/clean_table.html')
+				_include('./modules/single_table.html')
+				<!-- Content Ends Here -->
+				<!-- ****************Starts Show content in Yahoo only Fix**************-->
+				<div class="yahootest" style="display:none;">This content shows only on Yahoo</div>
+				<!-- ****************Ends Show content in Yahoo only Fix****************-->
+			</td>
+		</tr>
+	</table>
+	<!-- Main Table Container Ends -->
+	_include('./config/bottom_gmail_fix.html')
+</body>	
+</html>
+			

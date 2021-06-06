@@ -1,0 +1,19 @@
+/*force link colors*/
+*[class=appleLinks]{color:#000000!important;text-decoration:none!important;}
+.appleLinks{color:#000000!important;text-decoration:none!important;}
+
+/*gmailfix*/
+*[class=gmailfix]{display:none!important;}
+.gmailfix{display:none!important;}
+
+/*Yahoo Media query*/
+@media yahoo {.yahootest{width:200px!important;border:1px solid red!important;display:block!important;}}
+
+/*Web Fonts*/
+@font-face {
+	font-family: 'Indie Flower';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6hampu5_7CjHW5spxoeN3Vs.woff2) format('woff2');
+}
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');

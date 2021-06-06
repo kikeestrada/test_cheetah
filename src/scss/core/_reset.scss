@@ -1,0 +1,49 @@
+*{
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	max-height:1000000px;
+	-mso-line-height-rule:exactly;
+	line-height: 100%;
+}
+body {
+	width: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	margin: 0;
+	padding: 0;
+}
+.ReadMsgBody {width: 100%;}
+.ExternalClass,
+.ExternalClass p,
+.ExternalClass span,
+.ExternalClass font,
+.ExternalClass td
+{line-height: 100%;}
+table {
+	border-collapse:collapse;
+	-mso-table-lspace:0;
+	-mso-table-rspace:0;
+	padding:0;
+}
+table td {
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: 0 none;
+	font-size:0px; 
+	line-height: 0px; 
+	-mso-table-lspace: 0pt;
+	-mso-table-rspace: 0pt;
+	-mso-line-height-rule:exactly;	
+	-mso-ansi-font-size:0px; 
+	-mso-text-raise: 0px;
+}
+p{margin:0; padding: 0;}
+h1,h2,h3,h4,h5,h6{margin: 0px !important; padding: 0px !important;}
+img {
+	display: block;
+	border: 0 none;
+	outline: none;
+	text-decoration: none;
+	line-height: 100%;
+	-ms-interpolation-mode: bicubic;
+} 
