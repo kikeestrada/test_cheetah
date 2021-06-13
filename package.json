@@ -1,9 +1,9 @@
 {
-	"name": "email_gulp_boilerplate",
+	"name": "test_cheetah",
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "https://kikeestrada.github.io/email_gulp_boilerplate/",
+	"homepage": "https://kikeestrada.github.io/test_cheetah/",
 	"scripts": {
 		"start": "gulp",
 		"scripts": "gulp scripts",
